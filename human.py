@@ -8,8 +8,8 @@ import time
 from datetime import datetime
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
-toadd="dvp2299@gmail.com"
-myadd="dileep62892.143@gmail.com"
+toadd="xxxxx@gmail.com"
+myadd="xxxx@gmail.com"
 Subject="Security Alert"
 msg=MIMEMultipart()
 msg["Subject"]=Subject
@@ -37,7 +37,7 @@ while True:
         msg.attach(img)
         server=smtplib.SMTP("smtp.gmail.com", 587)
         server.starttls()
-        server.login(user="dileep62892.143@gmail.com", password="7013036359")
+        server.login(user="xxxx@gmail.com", password="xxxxxxxxx")
         server.sendmail(myadd,toadd,msg.as_string())
         server.quit()
         time.sleep(1)
