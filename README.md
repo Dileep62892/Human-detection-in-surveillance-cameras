@@ -40,4 +40,4 @@ The **Human Detection in Surveillance Cameras** is a real-time project that dete
     ```bash
     python human.py
 
-3. Press ‘q’ to exit the application.
+3. Press ‘q’ to exit the program.
